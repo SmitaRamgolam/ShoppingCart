@@ -59,7 +59,7 @@ public double checkout() {
     double orangediv = 0;
     
     //Start of Step 1 Derivation
-     for(String item: items){
+  /*   for(String item: items){
         if(item.equals("Apple")){
             appletotal += 0.6;
         }else if(item.equals("Orange")){
@@ -67,14 +67,14 @@ public double checkout() {
         
         }
         
-    }
+    }*/
     //End of Step 1 Derivation
     
     ///////////////////////////////////////////////////////////////////////////
     // Start of Step 2 Derivation
     
     //Apple cost derivation
- /*   applediv = appletotalitems / 2; 
+    applediv = appletotalitems / 2; 
     appletotal = (appletotalitems - applediv)*0.6; 
     
     
@@ -82,7 +82,8 @@ public double checkout() {
     orangediv = orangetotalitems / 3; 
     orangetotal = (orangetotalitems - orangediv)*0.25; 
     
-   // End of Step 2 Derivation*/
+   // End of Step 2 Derivation
+   
     total = appletotal + orangetotal;
     
     return total;
